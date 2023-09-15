@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1914D8B22AB4AE0C009D2915 /* AgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1914D8B12AB4AE0C009D2915 /* AgeViewModel.swift */; };
+		1914D8B62AB4B1DF009D2915 /* StructAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1914D8B52AB4B1DF009D2915 /* StructAge.swift */; };
 		19756B592AB440CC00ABAEB6 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B582AB440CC00ABAEB6 /* Age.swift */; };
 		19756B5B2AB440F300ABAEB6 /* Nationality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B5A2AB440F300ABAEB6 /* Nationality.swift */; };
 		19756B5D2AB44F5600ABAEB6 /* NationalityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1914D8B12AB4AE0C009D2915 /* AgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewModel.swift; sourceTree = "<group>"; };
+		1914D8B52AB4B1DF009D2915 /* StructAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructAge.swift; sourceTree = "<group>"; };
 		19756B582AB440CC00ABAEB6 /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
 		19756B5A2AB440F300ABAEB6 /* Nationality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nationality.swift; sourceTree = "<group>"; };
 		19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityViewModel.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				19756B622AB45BFC00ABAEB6 /* StructNationality.swift */,
+				1914D8B52AB4B1DF009D2915 /* StructAge.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */,
+				1914D8B12AB4AE0C009D2915 /* AgeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 				19756B5B2AB440F300ABAEB6 /* Nationality.swift in Sources */,
 				19756B5D2AB44F5600ABAEB6 /* NationalityViewModel.swift in Sources */,
 				19756B632AB45BFC00ABAEB6 /* StructNationality.swift in Sources */,
+				1914D8B22AB4AE0C009D2915 /* AgeViewModel.swift in Sources */,
+				1914D8B62AB4B1DF009D2915 /* StructAge.swift in Sources */,
 				19B9DB552AAB565C005B41A3 /* ContentView.swift in Sources */,
 				19756B592AB440CC00ABAEB6 /* Age.swift in Sources */,
 				19B9DB532AAB565C005B41A3 /* LivreRecetteApp.swift in Sources */,

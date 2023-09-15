@@ -44,12 +44,9 @@ struct Nationality: View {
                             Text("Probabilité : ").padding()
                             Text(String(nat.probability*100)+"%").padding()
                         }
-                        
-                        //BeerDetailsView(beer: beer)
                     }
                 }
             }
-            
         }
     }
         

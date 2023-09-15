@@ -8,10 +8,31 @@
 import SwiftUI
 
 struct Age: View {
+    
+    @State private var prenom: String = ""
+    @ObservedObject private var AgeViewModel = NationalityViewModel(prenom: " ")
+    
     var body: some View {
-        Text("Age")
+        VStack{
+            Text("Age").padding()
+            HStack{
+                TextField(
+                    "prénom",
+                    text: $prenom
+                ).padding()
+                    .multilineTextAlignment(.center)
+                Button("Rechercher"){
+                    AgeViewModel.getAge(prenom: prenom)
+                }.padding()
+                    .background(Color.green)
+                    .foregroundColor(Color.white)
+                    
+            }
+            Spacer()
+        }
     }
 }
+
 
 struct Age_Previews: PreviewProvider {
     static var previews: some View {
