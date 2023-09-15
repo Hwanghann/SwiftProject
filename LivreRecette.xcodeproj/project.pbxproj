@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19756B592AB440CC00ABAEB6 /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B582AB440CC00ABAEB6 /* Age.swift */; };
+		19756B5B2AB440F300ABAEB6 /* Nationality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B5A2AB440F300ABAEB6 /* Nationality.swift */; };
+		19756B5D2AB44F5600ABAEB6 /* NationalityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */; };
+		19756B632AB45BFC00ABAEB6 /* StructNationality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19756B622AB45BFC00ABAEB6 /* StructNationality.swift */; };
+		19B9DB532AAB565C005B41A3 /* LivreRecetteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DB522AAB565C005B41A3 /* LivreRecetteApp.swift */; };
+		19B9DB552AAB565C005B41A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DB542AAB565C005B41A3 /* ContentView.swift */; };
+		19B9DB572AAB565D005B41A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B9DB562AAB565D005B41A3 /* Assets.xcassets */; };
+		19B9DB5A2AAB565D005B41A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B9DB592AAB565D005B41A3 /* Preview Assets.xcassets */; };
+		19B9DB642AAB565D005B41A3 /* LivreRecetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DB632AAB565D005B41A3 /* LivreRecetteTests.swift */; };
+		19B9DB6E2AAB565D005B41A3 /* LivreRecetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DB6D2AAB565D005B41A3 /* LivreRecetteUITests.swift */; };
+		19B9DB702AAB565D005B41A3 /* LivreRecetteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DB6F2AAB565D005B41A3 /* LivreRecetteUITestsLaunchTests.swift */; };
+		19B9DB7E2AAB5687005B41A3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 19B9DB7D2AAB5687005B41A3 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B9DB602AAB565D005B41A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B9DB472AAB565C005B41A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B9DB4E2AAB565C005B41A3;
+			remoteInfo = LivreRecette;
+		};
+		19B9DB6A2AAB565D005B41A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B9DB472AAB565C005B41A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B9DB4E2AAB565C005B41A3;
+			remoteInfo = LivreRecette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19756B582AB440CC00ABAEB6 /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
+		19756B5A2AB440F300ABAEB6 /* Nationality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nationality.swift; sourceTree = "<group>"; };
+		19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalityViewModel.swift; sourceTree = "<group>"; };
+		19756B622AB45BFC00ABAEB6 /* StructNationality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructNationality.swift; sourceTree = "<group>"; };
+		19B9DB4F2AAB565C005B41A3 /* LivreRecette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivreRecette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B9DB522AAB565C005B41A3 /* LivreRecetteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreRecetteApp.swift; sourceTree = "<group>"; };
+		19B9DB542AAB565C005B41A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19B9DB562AAB565D005B41A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B9DB592AAB565D005B41A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19B9DB5F2AAB565D005B41A3 /* LivreRecetteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivreRecetteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B9DB632AAB565D005B41A3 /* LivreRecetteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreRecetteTests.swift; sourceTree = "<group>"; };
+		19B9DB692AAB565D005B41A3 /* LivreRecetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivreRecetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B9DB6D2AAB565D005B41A3 /* LivreRecetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreRecetteUITests.swift; sourceTree = "<group>"; };
+		19B9DB6F2AAB565D005B41A3 /* LivreRecetteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreRecetteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B9DB4C2AAB565C005B41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9DB7E2AAB5687005B41A3 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB5C2AAB565D005B41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB662AAB565D005B41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19756B532AB43B6B00ABAEB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19B9DB542AAB565C005B41A3 /* ContentView.swift */,
+				19756B582AB440CC00ABAEB6 /* Age.swift */,
+				19756B5A2AB440F300ABAEB6 /* Nationality.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19756B542AB43D5700ABAEB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19756B622AB45BFC00ABAEB6 /* StructNationality.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19756B552AB43DA100ABAEB6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19756B5C2AB44F5600ABAEB6 /* NationalityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19B9DB462AAB565C005B41A3 = {
+			isa = PBXGroup;
+			children = (
+				19B9DB512AAB565C005B41A3 /* LivreRecette */,
+				19B9DB622AAB565D005B41A3 /* LivreRecetteTests */,
+				19B9DB6C2AAB565D005B41A3 /* LivreRecetteUITests */,
+				19B9DB502AAB565C005B41A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B9DB502AAB565C005B41A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B9DB4F2AAB565C005B41A3 /* LivreRecette.app */,
+				19B9DB5F2AAB565D005B41A3 /* LivreRecetteTests.xctest */,
+				19B9DB692AAB565D005B41A3 /* LivreRecetteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B9DB512AAB565C005B41A3 /* LivreRecette */ = {
+			isa = PBXGroup;
+			children = (
+				19756B552AB43DA100ABAEB6 /* ViewModel */,
+				19756B542AB43D5700ABAEB6 /* Models */,
+				19756B532AB43B6B00ABAEB6 /* Views */,
+				19B9DB522AAB565C005B41A3 /* LivreRecetteApp.swift */,
+				19B9DB562AAB565D005B41A3 /* Assets.xcassets */,
+				19B9DB582AAB565D005B41A3 /* Preview Content */,
+			);
+			path = LivreRecette;
+			sourceTree = "<group>";
+		};
+		19B9DB582AAB565D005B41A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19B9DB592AAB565D005B41A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19B9DB622AAB565D005B41A3 /* LivreRecetteTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B9DB632AAB565D005B41A3 /* LivreRecetteTests.swift */,
+			);
+			path = LivreRecetteTests;
+			sourceTree = "<group>";
+		};
+		19B9DB6C2AAB565D005B41A3 /* LivreRecetteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B9DB6D2AAB565D005B41A3 /* LivreRecetteUITests.swift */,
+				19B9DB6F2AAB565D005B41A3 /* LivreRecetteUITestsLaunchTests.swift */,
+			);
+			path = LivreRecetteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B9DB4E2AAB565C005B41A3 /* LivreRecette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B9DB732AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecette" */;
+			buildPhases = (
+				19B9DB4B2AAB565C005B41A3 /* Sources */,
+				19B9DB4C2AAB565C005B41A3 /* Frameworks */,
+				19B9DB4D2AAB565C005B41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivreRecette;
+			packageProductDependencies = (
+				19B9DB7D2AAB5687005B41A3 /* Alamofire */,
+			);
+			productName = LivreRecette;
+			productReference = 19B9DB4F2AAB565C005B41A3 /* LivreRecette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B9DB5E2AAB565D005B41A3 /* LivreRecetteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B9DB762AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecetteTests" */;
+			buildPhases = (
+				19B9DB5B2AAB565D005B41A3 /* Sources */,
+				19B9DB5C2AAB565D005B41A3 /* Frameworks */,
+				19B9DB5D2AAB565D005B41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B9DB612AAB565D005B41A3 /* PBXTargetDependency */,
+			);
+			name = LivreRecetteTests;
+			productName = LivreRecetteTests;
+			productReference = 19B9DB5F2AAB565D005B41A3 /* LivreRecetteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B9DB682AAB565D005B41A3 /* LivreRecetteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B9DB792AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecetteUITests" */;
+			buildPhases = (
+				19B9DB652AAB565D005B41A3 /* Sources */,
+				19B9DB662AAB565D005B41A3 /* Frameworks */,
+				19B9DB672AAB565D005B41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B9DB6B2AAB565D005B41A3 /* PBXTargetDependency */,
+			);
+			name = LivreRecetteUITests;
+			productName = LivreRecetteUITests;
+			productReference = 19B9DB692AAB565D005B41A3 /* LivreRecetteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B9DB472AAB565C005B41A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					19B9DB4E2AAB565C005B41A3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					19B9DB5E2AAB565D005B41A3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 19B9DB4E2AAB565C005B41A3;
+					};
+					19B9DB682AAB565D005B41A3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 19B9DB4E2AAB565C005B41A3;
+					};
+				};
+			};
+			buildConfigurationList = 19B9DB4A2AAB565C005B41A3 /* Build configuration list for PBXProject "LivreRecette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B9DB462AAB565C005B41A3;
+			packageReferences = (
+				19B9DB7C2AAB5687005B41A3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 19B9DB502AAB565C005B41A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B9DB4E2AAB565C005B41A3 /* LivreRecette */,
+				19B9DB5E2AAB565D005B41A3 /* LivreRecetteTests */,
+				19B9DB682AAB565D005B41A3 /* LivreRecetteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B9DB4D2AAB565C005B41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9DB5A2AAB565D005B41A3 /* Preview Assets.xcassets in Resources */,
+				19B9DB572AAB565D005B41A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB5D2AAB565D005B41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB672AAB565D005B41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B9DB4B2AAB565C005B41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19756B5B2AB440F300ABAEB6 /* Nationality.swift in Sources */,
+				19756B5D2AB44F5600ABAEB6 /* NationalityViewModel.swift in Sources */,
+				19756B632AB45BFC00ABAEB6 /* StructNationality.swift in Sources */,
+				19B9DB552AAB565C005B41A3 /* ContentView.swift in Sources */,
+				19756B592AB440CC00ABAEB6 /* Age.swift in Sources */,
+				19B9DB532AAB565C005B41A3 /* LivreRecetteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB5B2AAB565D005B41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9DB642AAB565D005B41A3 /* LivreRecetteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B9DB652AAB565D005B41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9DB702AAB565D005B41A3 /* LivreRecetteUITestsLaunchTests.swift in Sources */,
+				19B9DB6E2AAB565D005B41A3 /* LivreRecetteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B9DB612AAB565D005B41A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B9DB4E2AAB565C005B41A3 /* LivreRecette */;
+			targetProxy = 19B9DB602AAB565D005B41A3 /* PBXContainerItemProxy */;
+		};
+		19B9DB6B2AAB565D005B41A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B9DB4E2AAB565C005B41A3 /* LivreRecette */;
+			targetProxy = 19B9DB6A2AAB565D005B41A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19B9DB712AAB565D005B41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B9DB722AAB565D005B41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B9DB742AAB565D005B41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivreRecette/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B9DB752AAB565D005B41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivreRecette/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19B9DB772AAB565D005B41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecetteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivreRecette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivreRecette";
+			};
+			name = Debug;
+		};
+		19B9DB782AAB565D005B41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecetteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivreRecette.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivreRecette";
+			};
+			name = Release;
+		};
+		19B9DB7A2AAB565D005B41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecetteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivreRecette;
+			};
+			name = Debug;
+		};
+		19B9DB7B2AAB565D005B41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iut.LivreRecetteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivreRecette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B9DB4A2AAB565C005B41A3 /* Build configuration list for PBXProject "LivreRecette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9DB712AAB565D005B41A3 /* Debug */,
+				19B9DB722AAB565D005B41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B9DB732AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9DB742AAB565D005B41A3 /* Debug */,
+				19B9DB752AAB565D005B41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B9DB762AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecetteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9DB772AAB565D005B41A3 /* Debug */,
+				19B9DB782AAB565D005B41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B9DB792AAB565D005B41A3 /* Build configuration list for PBXNativeTarget "LivreRecetteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9DB7A2AAB565D005B41A3 /* Debug */,
+				19B9DB7B2AAB565D005B41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19B9DB7C2AAB5687005B41A3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19B9DB7D2AAB5687005B41A3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19B9DB7C2AAB5687005B41A3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 19B9DB472AAB565C005B41A3 /* Project object */;
+}
