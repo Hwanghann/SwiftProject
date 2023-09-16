@@ -10,6 +10,7 @@ import SwiftUI
 struct Nationality: View {
     
     @State private var prenom: String = ""
+    private let varPays: Pays = Pays()
     @ObservedObject private var NationalitysViewModel = NationalityViewModel(prenom: " ")
     
     var body: some View {
@@ -30,14 +31,14 @@ struct Nationality: View {
             Spacer()
             VStack {
                 HStack{
-                    Text("Nombre de " + prenom + " dans le monde ")
+                    Text("Nombre de " + prenom + " dans le monde : ")
                     Text(String(NationalitysViewModel.Nationalitys?.count ?? 0))
                 }
                 List(NationalitysViewModel.Nationalitys?.country ?? [],id: \.self) { nat in
                     VStack{
                         HStack{
                             Text("Pays : ").padding()
-                            Text(nat.country_id).padding()
+                            Text(varPays.getPays(codePays: nat.country_id)).padding()
                         }
                         
                         HStack{

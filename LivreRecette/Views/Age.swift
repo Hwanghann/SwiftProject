@@ -10,7 +10,7 @@ import SwiftUI
 struct Age: View {
     
     @State private var prenom: String = ""
-    @ObservedObject private var AgeViewModel = NationalityViewModel(prenom: " ")
+    @ObservedObject private var varAgeViewModel = AgeViewModel(prenom: " ")
     
     var body: some View {
         VStack{
@@ -22,13 +22,23 @@ struct Age: View {
                 ).padding()
                     .multilineTextAlignment(.center)
                 Button("Rechercher"){
-                    AgeViewModel.getAge(prenom: prenom)
+                    varAgeViewModel.getAge(prenom: prenom)
                 }.padding()
                     .background(Color.green)
                     .foregroundColor(Color.white)
                     
+            }.padding()
+            
+            VStack{
+                HStack{
+                    Text("Occurence du prénom : ")
+                    Text(String(varAgeViewModel.Age?.count ?? 0))
+                }.padding()
+                HStack{
+                    Text("Age moyen recenser : ")
+                    Text(String(varAgeViewModel.Age?.age ?? 0))
+                }.padding()
             }
-            Spacer()
         }
     }
 }

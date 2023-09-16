@@ -20,7 +20,7 @@ class AgeViewModel: ObservableObject {
         if(prenom == " "){return}
         let url: String = "https://api.agify.io/?name=" + prenom
         AF.request(url).response { response in
-            self.Age = try! JSONDecoder().decode(StructNationalite.self, from: response.data!)
+            self.Age = try! JSONDecoder().decode(StructAge.self, from: response.data!)
         }
     }
 }
